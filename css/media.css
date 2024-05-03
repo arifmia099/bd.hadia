@@ -1,0 +1,251 @@
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	#menu-icon{
+		display: block;
+	}
+	.navlist{
+		position: absolute;
+		width:50%;
+		height: 30vh;
+		padding: 10px 20px;
+		left: 50%;
+		background: none;
+		transition: all .25s ease;
+	}
+	.navlist a{
+		margin: 0 0 10px 0;
+		font-size: 1rem;
+		font-weight: 300;
+	}
+	.navlist.open{
+		left: 0;
+	}
+	.home {
+
+	}
+	
+	.home h1{
+		font-size: 15px;
+		margin-top: 10px;
+	}
+	.home h4{
+		font-size: 35px;
+		margin-top: 10px;
+		display: flex;
+	}
+	.home h4:hover{
+		color:red;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.home p{
+		font-size: 14px;
+		line-height: 20px;
+		letter-spacing: 2px;
+	}
+ .btn{
+	padding: 10px 25px;
+	border: 1px solid transparent;
+	transition: all .6s;
+	}
+	.btn:hover{
+	transform: scale(0.9) translateY(-5px);
+	border: 1px solid var(--text-color);
+}
+.btn i{
+	margin-left: 5px;
+}
+.bands{
+padding: 20px 7%;
+}
+.main-bands{
+	grid-gap: 10px;
+}
+	.bands-c{}
+	.bands-c img{
+		width:70px;
+		height: auto;
+	}
+	.center-text{
+		text-align: center;
+	}
+	.center-text h2{
+		font-size: 25px;
+		font-weight: 500;
+	}
+	.n-content{
+	grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+	gap:1.0rem;
+	margin-top: 2rem;
+}
+.row-img img{
+	width: 100px;
+	transition: transform 0.3s;
+}
+.row-img:hover img{
+	transform: scale(1.2);
+}
+.row h4{
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.start a{
+	font-size: 13px;
+	margin-right: 3px;
+}
+.row-in{
+	margin-top: 3px;
+}
+.row-left a{
+	font-size: 13px;
+	font-weight: 400;
+	transition: all ,3s;
+}
+.row-left a:hover{
+	color:green;
+}
+.row-left i{
+	margin-left:3px;
+}
+.row-right h6{
+	font-size: 15px;
+	font-weight: 400;
+	margin-right: -5px;
+}
+.n-btn{
+	margin-top: 2rem;
+}
+.btn2{
+	padding: 10px 30px;
+	font-size: 13px;
+	font-weight: 400;
+}
+.feture{
+	padding: 5px 5% 5px;
+}
+.feture-content{
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+	gap:1.5rem;
+	align-items: center;
+}
+.box{
+	padding: 10px 10px 10px 20px;
+	border-left: 1px solid black;
+	box-shadow: 0 5px 10px rgba(0,0.0.0.1);
+	gap:10px;
+	transition: all .3s;
+}
+.f-icon i{
+	font-size: 25px;
+}
+.f-text h3{
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 3px;
+}
+.f-text p{
+	font-size: 13px;
+	line-height: 15px;
+}
+.col{
+	transition: all .3s;
+}
+.col-img{
+	border-radius: 18px;
+}
+..col-img img{
+width:100px;
+}
+.newsletter-content{
+	grid-template-columns: repeat(1, 1fr);
+	gap:1rem;
+	padding: 40px, 60px;
+	border-radius: 5px;
+}
+.newsletter-text h2{
+	font-size: 18px;
+	font-weight: 500;
+	padding: 10px 10px 1px 10px;
+	text-align: center;
+}
+.newsletter-text p{
+	font-size: 13px;
+	padding: 1px 10px 10px 10px;
+	text-align: center;
+}
+.newsletter-content form{
+	grid-template-columns: .9fr 0.1fr;
+	padding-left: 20px;
+	padding-bottom: 10px;
+ 
+}
+.newsletter-content form input:first-child{
+	padding: 3px;
+	font-size: 13px;
+	border-radius: 2px;
+}
+.newsletter-content form input:last-child{
+	border-radius: 3px;
+	font-size: 13px;
+}
+.footer{
+	grid-template-columns: repeat(auto-fit, minmax(10px, auto));
+	gap:1rem;
+	padding-left: 15px 
+}
+.footer-box h3{
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	
+}
+.footer-box a{
+	margin-bottom: 0.5rem;
+	transition: all .20s ease;
+}
+.footer-box a:hover{
+	transform: translateX(-3px);
+	color:green;
+}
+.social a{
+	height: 30px;
+	width: 30px;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-right:15px;
+	transform: transform 0.3s;
+}
+.copyright{
+	padding: 10px 8% 210px;
+}
+.end-text p{
+	font-size: 15px;
+	/*text-align: center;*/
+	margin-left: 40px;
+}
+}
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and(max-width: 1399.98px) {
+
+}
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+	
+}
